@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>..Novos Input..</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <head>
+        <h1>Logo</h1>
+        <span>Nome do Site</span>
+    </head>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="article.html">Article</a></li>
+            <li><a href="input.html">Inputs</a></li>
+    </nav>
+
+
+    <form>
+        <!-- label com focus -->
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome">
+        <br><br>
+
+        <!-- input para email -->
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="email@email.com.br">
+        <br><br>
+
+        <!-- numeros novos -->
+        <label for="numero">Número: </label>
+        <input type="number" id="numero" min="1" max="10" step="2">
+        <br><br>
+
+        <!-- url - sites -->
+        <label for="url">Site: </label>
+        <input type="url" id="url" placeholder="ex: http://www.meusite" autofocus>
+        <br><br>
+
+        <!-- pesquisar -->
+        <label for="perquisa">Pesquisar: </label>
+        <input type="serch" id="pesquisa" placeholder="Busca...">
+        <br><br>
+
+        <!-- range -->
+        <label for="range">Controle: </label>
+        <input type="range" id="range" min="1" max="10" value="5">
+        <br><br>
+        <!-- data -->
+        <label for="data">Data: </label>
+        <input type="date" id="data">
+        <br><br>
+
+        <!-- cor -->
+        <label for="cor">Cor: </label>
+        <input type="color" id="cor">
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <footer>
+        <p>2021 - Senac &copy;</p>
+    </footer>
+
+</body>
+
+</html>
