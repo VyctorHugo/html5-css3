@@ -1,0 +1,65 @@
+/* top header-content */
+
+.container{
+    background: grey;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.top-header-content .links-top{
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.top-header-content a.sign-in{
+    text-decoration: none;
+    background: red;
+    display: inline-block;
+    padding: 10px 30px;
+}
+.top-header-content .links-top li a{
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
+}
+.top-header-content .links-top li a:hover{
+    color: #753f56;
+}
+.top-header-content .links-top li a.sign-in:hover{
+    opacity: 0.9;
+    color: white;
+}
+.top-header-content .elements{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+.top-header-content .elements .top-li{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    margin: 0px 10px;
+    display: inline-block;
+}
+.top-header-content ul li{
+    display: inline-block;
+}
+.top-header-content .elements li a{
+    color: white;
+}
+.top-header-content .elements li a:hover{
+    opacity: 0.9;
+}
+ .top-header-content a.sign-in-email{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin: 0px 10px;
+    display: inline-block ;
+}
