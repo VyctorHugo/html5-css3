@@ -2,59 +2,244 @@
 <html lang="pt-br">
 
 <head>
-    <title>..Html5..</title>
+    <title>..Travel..</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" style type="text/css" href="../html5-css3/css/style.css">
 
-    <!-- comentario condicional de compatibilidade ie -->
-    <!-- [if lt IE 9]
-    <script src="../html5-css3/js/html5shiv.js"></script>
+    <!-- comentário condicional de compatibilidade ie -->
+    <!--[if lt IE 9]
+    <script src="../js/html5shiv.js"></script>
     <![endif]-->
 
 </head>
 
 <body>
-
-    <!-- top header-content acima do header links externos -->
-
+    <!-- top-header-content acima do header links externos -->
     <section class="top-header-content">
+        <div class="container-header">
+            <div class="row-header">
 
-        <div class="container">
-            <div class="row">
                 <ul class="links-top">
-                    <li  class="link">
-                        <a class="a sign-in" href="https://google.com.br" target="_blank">Google</a>
-                        </a>
+                    <li class="link">
+                        <a class="sign-in" href="https://google.com.br" target="_blank">Google</a>
                     </li>
-                    </ul>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank"><span class="fa fa-instagram"></span></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/login?lang=pt" target="_blank"><span
+                                class="fa fa-twitter"></span></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><span class="fa fa-html5"></span></a>
+                    </li>
+                </ul>
 
-                    <ul class="elements">
-                        <li class="top-li">
-                            <span>Qualidade e Rapidez!</span>
-                        </li>
-                        <li class="top-li">
-                        <a class="a sign-in-email" href="https://accounts.google.com/" target="_blank">Webmail
-                        </li>
-                    </ul>
+                <ul class="elements">
+                    <li class="top-li">
+                        <span>Qualidade e Rapidez!</span>
+                    </li>
+                    <li class="top-li">
+                        <a class="sign-in-email" href="https://accounts.google.com/" target="_blank">Webmail</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
-<!-- //top header-content acima do header links externos -->
-    <head>
-        <h1>Logo</h1>
-        <span>Nome do Site</span>
-    </head>
-    <nav>
-        <ul>
-            <li><a href=#>Home</a></li>
-            <li><a href="article.html">Article</a></li>
-            <li><a href="input.html">Inputs</a></li>
-    </nav>
+    <!-- //top-header-content acima do header links externos -->
 
-    <footer>
-        <p>2021 - Senac &copy;</p>
-    </footer>
+    <!-- banner-slider -->
+    <section class="banner-slider">
+        <div class="banner-content">
+            <header class="top-header-banner">
+                <!-- barra de navegação -->
+                <nav class="navbar navbar-light fill">
+                    <div class="container-fluid">
+
+                        <a class="navbar-logo" href="#index.html">
+                            <img src="../html5-css3/images/logo.png" alt="logotipo" title="logotipo"
+                                style="height:130px;" />
+                        </a>
+                        <div>
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="article.html">Notícias</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="input.html">Formulário</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <form action="#" method="post" class="d-flex search-form">
+                            <input type="search" placeholder="Busca..." required="required">
+                            <button type="submit"><span class="fa fa-search" aria-hidden="true"></span></button>
+                        </form>
+                    </div>
+                </nav>
+                <!-- //fim da barra de navegação -->
+            </header>
+
+            <!-- /inicio do banner-slider -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h3>Viaje com Segurança!</h3>
+                                <p>Use os Protocolos de Cuidado!</p>
+                                <div class="button-1 mx-auto">
+                                    <div class="eff-1"></div>
+                                    <a href="#" target="_blank">Saiba Mais...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item item2">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h3>Viaje Pelo Mundo!</h3>
+                                <p>Conheça o Paraíso!</p>
+                                <div class="button-1 mx-auto">
+                                    <div class="eff-1"></div>
+                                    <a href="#" target="_blank">Saiba Mais...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item item3">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h3>Conheça Nossa Empresa!</h3>
+                                <p>Viaje conosco!</p>
+                                <div class="button-1 mx-auto">
+                                    <div class="eff-1"></div>
+                                    <a href="#" target="_blank">Saiba Mais...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- fim do banner-slider -->
+
+    <!-- inicio do news -->
+    <section class="news">
+        <div class="container-news">
+            <h3 class="heading">Novidades</h3>
+            <p class="heading-2">Venha Conhecer e Desfrutar dos Nossos Novos
+                Roteiros.</p>
+            <div class="row-news">
+                <div class="box-news">
+                    <img src="images/canada.jpg" alt="canada" class="img-fluid">
+                    <h3 class="title-image">As Belezas do Canadá.</h3>
+                    <p class="paragrafo">Venha conhecer este país maravilhoso!</p>
+                    <a href="#" class="read-more">Leia Mais...
+                        <span class="fa fa-arrow-right"></span></a>
+                </div>
+                <div class="box-news">
+                    <img src="images/finlandia.jpg" alt="finlandia" class="img-fluid">
+                    <h3 class="title-image">As Belezas da Finlândia.</h3>
+                    <p class="paragrafo">Venha conhecer este país maravilhoso!</p>
+                    <a href="#" class="read-more">Leia Mais...
+                        <span class="fa fa-arrow-right"></span></a>
+                </div>
+                <div class="box-news">
+                    <img src="images/italia.jpg" alt="italia" class="img-fluid">
+                    <h3 class="title-image">As Belezas do Itália.</h3>
+                    <p class="paragrafo">Venha conhecer este país maravilhoso!</p>
+                    <a href="#" class="read-more">Leia Mais...
+                        <span class="fa fa-arrow-right"></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //fim do news-->
+
+    <!--box-text-->
+
+    <section class="box-text">
+        <div class="container-box-text">
+            <h3 class="heading-3">Últimas Noticías</h3>
+            <div class="row-box-text">
+                <div id="box1">
+                    <h1>Noticias</h1>
+                    <p>Novos destinos serão lancados em breve.
+                        aguardem e desfrute destas facilidades.
+                        Logo lançaremos estes destinos para você.
+                    </p>
+                </div>
+                <div id="box2">
+                    <h1>Noticias</h1>
+                    <p>Novos destinos serão lancados em breve.
+                        aguardem e desfrute destas facilidades.
+                        Logo lançaremos estes destinos para você.
+                    </p>
+                </div>
+                <div id="box3">
+                    <h1>Noticias</h1>
+                    <p>Novos destinos serão lancados em breve.
+                        aguardem e desfrute destas facilidades.
+                        Logo lançaremos estes destinos para você.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /inicio do footer -->
+
+    <section class="footer">
+        <div class="container-footer">
+
+            <div class="row-footer">
+                <div class="box-footer">
+                    <a class="fale-conosco" href="#">Fale Conosco</a>
+                    <div class="text-inf">
+                        <p><span class="color-footer">Endereço:</span>
+                            Q 45 Sala 1506</p>
+                    </div>
+                    <div class="text-inf">
+                        <p><span class="color-footer" href="#">Email</span>
+                            <a href="mailto:travel1456@gmail.com">travel1456@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="text-inf">
+                        <p><span class="color-footer">Fone:</span>
+                            (61) 87648765</p>
+                    </div>
+                </div>
+                <div class="box-footer">
+                </div>
+                <div class="box-footer">
+                </div>
+            </div>
+            <div class="line-copy">
+                <p class="copyright">2021 - Travel Happy <i class="fa fa-copyright"></i></p>
+
+            </div>
+        </div>
+    </section>
 
 </body>
 
 </html>
+
+<!-- bolinha passar os banners -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
